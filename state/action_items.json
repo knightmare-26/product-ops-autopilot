@@ -1,0 +1,121 @@
+{
+  "items": {
+    "63b9f041": {
+      "id": "63b9f041",
+      "owner": "Kabir",
+      "task": "Share funnel breakdown for the guarantor step",
+      "due": "2026-11-12",
+      "meeting": "Weekly Product Review",
+      "date": "2026-11-10",
+      "status": "done"
+    },
+    "e552eae7": {
+      "id": "e552eae7",
+      "owner": "Sana",
+      "task": "Draft PRD for post-payment guarantor collection",
+      "due": "2026-11-14",
+      "meeting": "Weekly Product Review",
+      "date": "2026-11-10",
+      "status": "open"
+    },
+    "960d9209": {
+      "id": "960d9209",
+      "owner": "Tara",
+      "task": "Write release note for refund tracking page",
+      "due": "2026-11-11",
+      "meeting": "Weekly Product Review",
+      "date": "2026-11-10",
+      "status": "done"
+    },
+    "51d1c9e9": {
+      "id": "51d1c9e9",
+      "owner": "Rohan",
+      "task": "Investigate weekend p95 latency spike",
+      "due": "2026-11-17",
+      "meeting": "Weekly Product Review",
+      "date": "2026-11-10",
+      "status": "open"
+    },
+    "bfd55806": {
+      "id": "bfd55806",
+      "owner": "Nikhil",
+      "task": "Size split-payment effort with engineering",
+      "due": "2026-11-19",
+      "meeting": "Roadmap Sync",
+      "date": "2026-11-12",
+      "status": "open"
+    },
+    "48267bc9": {
+      "id": "48267bc9",
+      "owner": "Aisha",
+      "task": "Update the Q1 roadmap page in Notion with the new themes",
+      "due": "2026-11-14",
+      "meeting": "Roadmap Sync",
+      "date": "2026-11-12",
+      "status": "open"
+    },
+    "081c2884": {
+      "id": "081c2884",
+      "owner": "Meera",
+      "task": "Get legal sign-off on verification flow",
+      "due": null,
+      "meeting": "Roadmap Sync",
+      "date": "2026-11-12",
+      "status": "open"
+    },
+    "dfe2fa5d": {
+      "id": "dfe2fa5d",
+      "owner": "Dev",
+      "task": "Set up an intake form for mid-sprint requests",
+      "due": "2026-11-21",
+      "meeting": "Sprint Review",
+      "date": "2026-11-17",
+      "status": "open"
+    },
+    "446ec477": {
+      "id": "446ec477",
+      "owner": "Kabir",
+      "task": "Re-plan BOOK Sprint 42 scope with the buffer",
+      "due": "2026-11-18",
+      "meeting": "Sprint Review",
+      "date": "2026-11-17",
+      "status": "open"
+    },
+    "567b7b43": {
+      "id": "567b7b43",
+      "owner": "Imran",
+      "task": "Add alerting for failed payment webhooks",
+      "due": "2026-11-24",
+      "meeting": "Sprint Review",
+      "date": "2026-11-17",
+      "status": "open"
+    }
+  },
+  "decisions": [
+    {
+      "text": "Make guarantor upload optional at booking and collect it after payment.",
+      "meeting": "Weekly Product Review",
+      "date": "2026-11-10"
+    },
+    {
+      "text": "Roll refund tracking to all cities after 1 week of monitoring.",
+      "meeting": "Weekly Product Review",
+      "date": "2026-11-10"
+    },
+    {
+      "text": "Split payment between roommates moves to Q1, not this quarter.",
+      "meeting": "Roadmap Sync",
+      "date": "2026-11-12"
+    },
+    {
+      "text": "Stories without acceptance criteria cannot enter sprint planning from 1 Dec.",
+      "meeting": "Roadmap Sync",
+      "date": "2026-11-12"
+    },
+    {
+      "text": "Booking Flow keeps a 15% buffer for unplanned work next sprint.",
+      "meeting": "Sprint Review",
+      "date": "2026-11-17"
+    }
+  ]
+}

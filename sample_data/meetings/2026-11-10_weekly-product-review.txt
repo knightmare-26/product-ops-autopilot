@@ -1,0 +1,12 @@
+Weekly Product Review — 10 Nov 2026 (fictional sample notes)
+Attendees: Aisha, Kabir, Nikhil, Tara, Meera
+
+- Booking Flow conversion dipped 2 pts after the new guarantor step. Kabir thinks the upload UI is the culprit.
+Decision: Make guarantor upload optional at booking and collect it after payment.
+Action: Kabir - Share funnel breakdown for the guarantor step - due 2026-11-12
+Action: Sana - Draft PRD for post-payment guarantor collection - due 2026-11-14
+- Payments: refund status page is live in 3 cities.
+Action: Tara - Write release note for refund tracking page - due 2026-11-11
+Decision: Roll refund tracking to all cities after 1 week of monitoring.
+- Search latency still above target on weekends.
+Action: Rohan - Investigate weekend p95 latency spike - due 2026-11-17

@@ -1,0 +1,306 @@
+{
+  "pods": [
+    {
+      "pod": "Search & Discovery",
+      "last": {
+        "sprint": "SRCH Sprint 41",
+        "state": "closed",
+        "planned": 14,
+        "completed_planned": 14,
+        "spillover": [],
+        "spillover_rate": 0.0,
+        "repeat_spillover": [],
+        "adhoc": [],
+        "adhoc_share": 0.0,
+        "closure_delay_days": 0,
+        "doc_quality": 1.0,
+        "thin_docs": [],
+        "spill_reasons": {}
+      },
+      "prev": {
+        "sprint": "SRCH Sprint 40",
+        "state": "closed",
+        "planned": 13,
+        "completed_planned": 12,
+        "spillover": [
+          "SRCH-1207"
+        ],
+        "spillover_rate": 0.07692307692307693,
+        "repeat_spillover": [],
+        "adhoc": [
+          "SRCH-1201"
+        ],
+        "adhoc_share": 0.07142857142857142,
+        "closure_delay_days": 0,
+        "doc_quality": 1.0,
+        "thin_docs": [],
+        "spill_reasons": {
+          "Stuck in review": 1
+        }
+      },
+      "active": {
+        "sprint": "SRCH Sprint 42",
+        "state": "active",
+        "planned": 13,
+        "completed_planned": 3,
+        "spillover": [
+          "SRCH-1240",
+          "SRCH-1241",
+          "SRCH-1243",
+          "SRCH-1244",
+          "SRCH-1246",
+          "SRCH-1247",
+          "SRCH-1249",
+          "SRCH-1250",
+          "SRCH-1251",
+          "SRCH-1253"
+        ],
+        "spillover_rate": 0.7692307692307693,
+        "repeat_spillover": [
+          "SRCH-1243"
+        ],
+        "adhoc": [
+          "SRCH-1248"
+        ],
+        "adhoc_share": 0.07142857142857142,
+        "closure_delay_days": 0,
+        "doc_quality": 1.0,
+        "thin_docs": [],
+        "spill_reasons": {
+          "Not started (To Do)": 2,
+          "Stuck in review": 2,
+          "In progress at close": 6,
+          "Carried over again": 1
+        }
+      },
+      "status": {
+        "spillover_rate": "green",
+        "adhoc_share": "green",
+        "closure_delay_days": "green",
+        "doc_quality": "green"
+      },
+      "overall": "green"
+    },
+    {
+      "pod": "Booking Flow",
+      "last": {
+        "sprint": "BOOK Sprint 41",
+        "state": "closed",
+        "planned": 8,
+        "completed_planned": 6,
+        "spillover": [
+          "BOOK-1225",
+          "BOOK-1229"
+        ],
+        "spillover_rate": 0.25,
+        "repeat_spillover": [],
+        "adhoc": [
+          "BOOK-1222",
+          "BOOK-1223",
+          "BOOK-1224",
+          "BOOK-1227",
+          "BOOK-1228",
+          "BOOK-1233"
+        ],
+        "adhoc_share": 0.42857142857142855,
+        "closure_delay_days": 3,
+        "doc_quality": 0.6363636363636364,
+        "thin_docs": [
+          "BOOK-1221",
+          "BOOK-1224",
+          "BOOK-1226",
+          "BOOK-1227"
+        ],
+        "spill_reasons": {
+          "In progress at close": 2
+        }
+      },
+      "prev": {
+        "sprint": "BOOK Sprint 40",
+        "state": "closed",
+        "planned": 7,
+        "completed_planned": 6,
+        "spillover": [
+          "BOOK-1207"
+        ],
+        "spillover_rate": 0.14285714285714285,
+        "repeat_spillover": [],
+        "adhoc": [
+          "BOOK-1201",
+          "BOOK-1202",
+          "BOOK-1203",
+          "BOOK-1206",
+          "BOOK-1209",
+          "BOOK-1210",
+          "BOOK-1213"
+        ],
+        "adhoc_share": 0.5,
+        "closure_delay_days": 2,
+        "doc_quality": 0.3333333333333333,
+        "thin_docs": [
+          "BOOK-1201",
+          "BOOK-1202",
+          "BOOK-1203",
+          "BOOK-1204",
+          "BOOK-1208",
+          "BOOK-1210",
+          "BOOK-1211",
+          "BOOK-1212"
+        ],
+        "spill_reasons": {
+          "Stuck in review": 1
+        }
+      },
+      "active": {
+        "sprint": "BOOK Sprint 42",
+        "state": "active",
+        "planned": 5,
+        "completed_planned": 3,
+        "spillover": [
+          "BOOK-1246",
+          "BOOK-1249"
+        ],
+        "spillover_rate": 0.4,
+        "repeat_spillover": [],
+        "adhoc": [
+          "BOOK-1240",
+          "BOOK-1242",
+          "BOOK-1243",
+          "BOOK-1244",
+          "BOOK-1245",
+          "BOOK-1250",
+          "BOOK-1251",
+          "BOOK-1252",
+          "BOOK-1253"
+        ],
+        "adhoc_share": 0.6428571428571429,
+        "closure_delay_days": 0,
+        "doc_quality": 0.5833333333333334,
+        "thin_docs": [
+          "BOOK-1241",
+          "BOOK-1242",
+          "BOOK-1248",
+          "BOOK-1249",
+          "BOOK-1253"
+        ],
+        "spill_reasons": {
+          "Not started (To Do)": 2,
+          "Thin requirements": 1
+        }
+      },
+      "status": {
+        "spillover_rate": "amber",
+        "adhoc_share": "red",
+        "closure_delay_days": "red",
+        "doc_quality": "amber"
+      },
+      "overall": "red"
+    },
+    {
+      "pod": "Payments",
+      "last": {
+        "sprint": "PAY Sprint 41",
+        "state": "closed",
+        "planned": 12,
+        "completed_planned": 10,
+        "spillover": [
+          "PAY-1226",
+          "PAY-1232"
+        ],
+        "spillover_rate": 0.16666666666666666,
+        "repeat_spillover": [],
+        "adhoc": [
+          "PAY-1225",
+          "PAY-1231"
+        ],
+        "adhoc_share": 0.14285714285714285,
+        "closure_delay_days": 1,
+        "doc_quality": 0.8888888888888888,
+        "thin_docs": [
+          "PAY-1233"
+        ],
+        "spill_reasons": {
+          "Stuck in review": 1,
+          "In progress at close": 1
+        }
+      },
+      "prev": {
+        "sprint": "PAY Sprint 40",
+        "state": "closed",
+        "planned": 10,
+        "completed_planned": 9,
+        "spillover": [
+          "PAY-1211"
+        ],
+        "spillover_rate": 0.1,
+        "repeat_spillover": [],
+        "adhoc": [
+          "PAY-1202",
+          "PAY-1207",
+          "PAY-1209",
+          "PAY-1213"
+        ],
+        "adhoc_share": 0.2857142857142857,
+        "closure_delay_days": 0,
+        "doc_quality": 0.5,
+        "thin_docs": [
+          "PAY-1200",
+          "PAY-1201",
+          "PAY-1207"
+        ],
+        "spill_reasons": {
+          "In progress at close": 1
+        }
+      },
+      "active": {
+        "sprint": "PAY Sprint 42",
+        "state": "active",
+        "planned": 13,
+        "completed_planned": 7,
+        "spillover": [
+          "PAY-1240",
+          "PAY-1244",
+          "PAY-1246",
+          "PAY-1248",
+          "PAY-1249",
+          "PAY-1252"
+        ],
+        "spillover_rate": 0.46153846153846156,
+        "repeat_spillover": [
+          "PAY-1246"
+        ],
+        "adhoc": [
+          "PAY-1241"
+        ],
+        "adhoc_share": 0.07142857142857142,
+        "closure_delay_days": 0,
+        "doc_quality": 1.0,
+        "thin_docs": [],
+        "spill_reasons": {
+          "Not started (To Do)": 3,
+          "In progress at close": 3,
+          "Carried over again": 1
+        }
+      },
+      "status": {
+        "spillover_rate": "amber",
+        "adhoc_share": "green",
+        "closure_delay_days": "amber",
+        "doc_quality": "green"
+      },
+      "overall": "amber"
+    }
+  ],
+  "team_spillover_rate": 0.11764705882352941,
+  "cycle_time": {
+    "median_days": 40,
+    "count": 9,
+    "slowest": {
+      "feature": "Add instant-book badge",
+      "pod": "Payments",
+      "idea_logged": "2026-08-16",
+      "released": "2026-10-29"
+    }
+  },
+  "source": "sample"
+}

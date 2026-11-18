@@ -1,0 +1,1866 @@
+{
+  "source": "sample",
+  "pods": [
+    {
+      "name": "Search & Discovery",
+      "sprints": [
+        {
+          "id": 40,
+          "name": "SRCH Sprint 40",
+          "state": "closed",
+          "start": "2026-10-20",
+          "end": "2026-10-31",
+          "closed_at": "2026-10-31",
+          "issues": [
+            {
+              "key": "SRCH-1200",
+              "type": "Story",
+              "summary": "Retry failed payment webhooks",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Meera",
+              "created": "2026-10-05",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to retry failed payment webhooks so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1201",
+              "type": "Story",
+              "summary": "Allow guarantor upload during booking",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Aisha",
+              "created": "2026-10-27",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to allow guarantor upload during booking so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1202",
+              "type": "Story",
+              "summary": "Refund status tracking page",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Meera",
+              "created": "2026-09-29",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to refund status tracking page so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1203",
+              "type": "Story",
+              "summary": "Send booking confirmation via WhatsApp",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Meera",
+              "created": "2026-10-13",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to send booking confirmation via whatsapp so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1204",
+              "type": "Story",
+              "summary": "Allow guarantor upload during booking",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Rohan",
+              "created": "2026-09-30",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to allow guarantor upload during booking so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1205",
+              "type": "Story",
+              "summary": "Retry failed payment webhooks",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Meera",
+              "created": "2026-10-03",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to retry failed payment webhooks so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1206",
+              "type": "Story",
+              "summary": "Add tour scheduling for properties",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Aisha",
+              "created": "2026-10-07",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add tour scheduling for properties so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1207",
+              "type": "Task",
+              "summary": "Retry failed payment webhooks",
+              "status": "In Review",
+              "points": 3,
+              "assignee": "Meera",
+              "created": "2026-10-02",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to retry failed payment webhooks so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1208",
+              "type": "Story",
+              "summary": "Reduce search API p95 latency",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Aisha",
+              "created": "2026-10-03",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to reduce search api p95 latency so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1209",
+              "type": "Story",
+              "summary": "Add tour scheduling for properties",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Rohan",
+              "created": "2026-09-26",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add tour scheduling for properties so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1210",
+              "type": "Story",
+              "summary": "Show price breakdown before payment",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Rohan",
+              "created": "2026-10-14",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to show price breakdown before payment so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1211",
+              "type": "Story",
+              "summary": "Reduce search API p95 latency",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Rohan",
+              "created": "2026-10-03",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to reduce search api p95 latency so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1212",
+              "type": "Bug",
+              "summary": "Landlord document verification flow",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Aisha",
+              "created": "2026-09-26",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to landlord document verification flow so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1213",
+              "type": "Story",
+              "summary": "Reduce search API p95 latency",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Rohan",
+              "created": "2026-10-12",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to reduce search api p95 latency so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "SRCH Sprint 41",
+          "state": "closed",
+          "start": "2026-11-03",
+          "end": "2026-11-14",
+          "closed_at": "2026-11-14",
+          "issues": [
+            {
+              "key": "SRCH-1220",
+              "type": "Story",
+              "summary": "Send booking confirmation via WhatsApp",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Rohan",
+              "created": "2026-10-15",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to send booking confirmation via whatsapp so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1221",
+              "type": "Story",
+              "summary": "Saved searches with alerts",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Aisha",
+              "created": "2026-10-28",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to saved searches with alerts so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1222",
+              "type": "Story",
+              "summary": "Fix currency rounding on checkout",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Aisha",
+              "created": "2026-10-30",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to fix currency rounding on checkout so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1223",
+              "type": "Story",
+              "summary": "Add instant-book badge",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Aisha",
+              "created": "2026-10-12",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add instant-book badge so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1224",
+              "type": "Story",
+              "summary": "Fix currency rounding on checkout",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Rohan",
+              "created": "2026-10-17",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to fix currency rounding on checkout so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1225",
+              "type": "Story",
+              "summary": "Improve map pin clustering",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Meera",
+              "created": "2026-10-25",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to improve map pin clustering so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1226",
+              "type": "Task",
+              "summary": "Add tour scheduling for properties",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Meera",
+              "created": "2026-10-04",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add tour scheduling for properties so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1227",
+              "type": "Story",
+              "summary": "Add sort by move-in date",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Aisha",
+              "created": "2026-10-21",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1228",
+              "type": "Story",
+              "summary": "Saved searches with alerts",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Rohan",
+              "created": "2026-10-24",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to saved searches with alerts so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1229",
+              "type": "Story",
+              "summary": "Cache popular city search results",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Aisha",
+              "created": "2026-10-12",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to cache popular city search results so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1230",
+              "type": "Story",
+              "summary": "Refund status tracking page",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Rohan",
+              "created": "2026-10-16",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to refund status tracking page so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1231",
+              "type": "Story",
+              "summary": "Show price breakdown before payment",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Rohan",
+              "created": "2026-10-29",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to show price breakdown before payment so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1232",
+              "type": "Task",
+              "summary": "Improve map pin clustering",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Meera",
+              "created": "2026-10-11",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to improve map pin clustering so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1233",
+              "type": "Story",
+              "summary": "Improve map pin clustering",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Meera",
+              "created": "2026-10-27",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to improve map pin clustering so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "SRCH Sprint 42",
+          "state": "active",
+          "start": "2026-11-17",
+          "end": "2026-11-28",
+          "closed_at": null,
+          "issues": [
+            {
+              "key": "SRCH-1240",
+              "type": "Story",
+              "summary": "Reduce search API p95 latency",
+              "status": "To Do",
+              "points": 1,
+              "assignee": "Meera",
+              "created": "2026-11-03",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to reduce search api p95 latency so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1241",
+              "type": "Bug",
+              "summary": "Send booking confirmation via WhatsApp",
+              "status": "To Do",
+              "points": 3,
+              "assignee": "Rohan",
+              "created": "2026-10-18",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to send booking confirmation via whatsapp so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1242",
+              "type": "Task",
+              "summary": "Add sort by move-in date",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Aisha",
+              "created": "2026-11-10",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1243",
+              "type": "Story",
+              "summary": "Add sort by move-in date",
+              "status": "In Progress",
+              "points": 2,
+              "assignee": "Aisha",
+              "created": "2026-10-29",
+              "added_after_start": false,
+              "carried_from_previous": true,
+              "labels": [],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1244",
+              "type": "Story",
+              "summary": "Reduce search API p95 latency",
+              "status": "In Progress",
+              "points": 8,
+              "assignee": "Aisha",
+              "created": "2026-11-11",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to reduce search api p95 latency so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1245",
+              "type": "Story",
+              "summary": "Refund status tracking page",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Rohan",
+              "created": "2026-11-13",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to refund status tracking page so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1246",
+              "type": "Story",
+              "summary": "Retry failed payment webhooks",
+              "status": "In Review",
+              "points": 8,
+              "assignee": "Aisha",
+              "created": "2026-10-29",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to retry failed payment webhooks so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1247",
+              "type": "Task",
+              "summary": "Lead form validation for phone numbers",
+              "status": "In Progress",
+              "points": 5,
+              "assignee": "Rohan",
+              "created": "2026-11-06",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to lead form validation for phone numbers so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1248",
+              "type": "Story",
+              "summary": "Retry failed payment webhooks",
+              "status": "In Progress",
+              "points": 3,
+              "assignee": "Aisha",
+              "created": "2026-11-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to retry failed payment webhooks so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1249",
+              "type": "Bug",
+              "summary": "Cache popular city search results",
+              "status": "In Progress",
+              "points": 5,
+              "assignee": "Meera",
+              "created": "2026-10-31",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to cache popular city search results so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1250",
+              "type": "Story",
+              "summary": "Saved searches with alerts",
+              "status": "In Review",
+              "points": 5,
+              "assignee": "Meera",
+              "created": "2026-11-08",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to saved searches with alerts so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1251",
+              "type": "Story",
+              "summary": "Filter listings by distance to university",
+              "status": "In Progress",
+              "points": 1,
+              "assignee": "Aisha",
+              "created": "2026-10-29",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to filter listings by distance to university so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1252",
+              "type": "Task",
+              "summary": "Cache popular city search results",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Aisha",
+              "created": "2026-10-21",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to cache popular city search results so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "SRCH-1253",
+              "type": "Story",
+              "summary": "Add sort by move-in date",
+              "status": "In Progress",
+              "points": 5,
+              "assignee": "Aisha",
+              "created": "2026-10-27",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Booking Flow",
+      "sprints": [
+        {
+          "id": 40,
+          "name": "BOOK Sprint 40",
+          "state": "closed",
+          "start": "2026-10-20",
+          "end": "2026-10-31",
+          "closed_at": "2026-11-02",
+          "issues": [
+            {
+              "key": "BOOK-1200",
+              "type": "Story",
+              "summary": "Cache popular city search results",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Kabir",
+              "created": "2026-09-27",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to cache popular city search results so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1201",
+              "type": "Story",
+              "summary": "Split payment between roommates",
+              "status": "In Progress",
+              "points": 1,
+              "assignee": "Kabir",
+              "created": "2026-10-27",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "split payment between roommates. See slack thread."
+            },
+            {
+              "key": "BOOK-1202",
+              "type": "Story",
+              "summary": "Cache popular city search results",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Dev",
+              "created": "2026-10-24",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "cache popular city search results. See slack thread."
+            },
+            {
+              "key": "BOOK-1203",
+              "type": "Story",
+              "summary": "Improve map pin clustering",
+              "status": "In Progress",
+              "points": 8,
+              "assignee": "Sana",
+              "created": "2026-10-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "improve map pin clustering. See slack thread."
+            },
+            {
+              "key": "BOOK-1204",
+              "type": "Story",
+              "summary": "Refund status tracking page",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Dev",
+              "created": "2026-10-14",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "refund status tracking page. See slack thread."
+            },
+            {
+              "key": "BOOK-1205",
+              "type": "Task",
+              "summary": "Add tour scheduling for properties",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Kabir",
+              "created": "2026-10-10",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add tour scheduling for properties so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1206",
+              "type": "Story",
+              "summary": "Send booking confirmation via WhatsApp",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Dev",
+              "created": "2026-10-25",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to send booking confirmation via whatsapp so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1207",
+              "type": "Story",
+              "summary": "Add tour scheduling for properties",
+              "status": "In Review",
+              "points": 3,
+              "assignee": "Sana",
+              "created": "2026-09-25",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add tour scheduling for properties so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1208",
+              "type": "Story",
+              "summary": "Add sort by move-in date",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Kabir",
+              "created": "2026-10-16",
+              "added_after_start": false,
+              "carried_from_previous": true,
+              "labels": [],
+              "description": "add sort by move-in date. See slack thread."
+            },
+            {
+              "key": "BOOK-1209",
+              "type": "Bug",
+              "summary": "Reduce search API p95 latency",
+              "status": "In Review",
+              "points": 8,
+              "assignee": "Kabir",
+              "created": "2026-10-24",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to reduce search api p95 latency so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1210",
+              "type": "Story",
+              "summary": "Saved searches with alerts",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Dev",
+              "created": "2026-10-25",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "saved searches with alerts. See slack thread."
+            },
+            {
+              "key": "BOOK-1211",
+              "type": "Story",
+              "summary": "Saved searches with alerts",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Dev",
+              "created": "2026-09-24",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "saved searches with alerts. See slack thread."
+            },
+            {
+              "key": "BOOK-1212",
+              "type": "Story",
+              "summary": "Lead form validation for phone numbers",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Kabir",
+              "created": "2026-09-24",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "lead form validation for phone numbers. See slack thread."
+            },
+            {
+              "key": "BOOK-1213",
+              "type": "Story",
+              "summary": "Refund status tracking page",
+              "status": "To Do",
+              "points": 1,
+              "assignee": "Dev",
+              "created": "2026-10-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to refund status tracking page so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "BOOK Sprint 41",
+          "state": "closed",
+          "start": "2026-11-03",
+          "end": "2026-11-14",
+          "closed_at": "2026-11-17",
+          "issues": [
+            {
+              "key": "BOOK-1220",
+              "type": "Story",
+              "summary": "Filter listings by distance to university",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Dev",
+              "created": "2026-10-10",
+              "added_after_start": false,
+              "carried_from_previous": true,
+              "labels": [],
+              "description": "As a student comparing properties I want to filter listings by distance to university so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1221",
+              "type": "Story",
+              "summary": "Add instant-book badge",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Dev",
+              "created": "2026-10-29",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "add instant-book badge. See slack thread."
+            },
+            {
+              "key": "BOOK-1222",
+              "type": "Story",
+              "summary": "Allow guarantor upload during booking",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Dev",
+              "created": "2026-11-11",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to allow guarantor upload during booking so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1223",
+              "type": "Story",
+              "summary": "Allow guarantor upload during booking",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Kabir",
+              "created": "2026-11-06",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to allow guarantor upload during booking so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1224",
+              "type": "Story",
+              "summary": "Reduce search API p95 latency",
+              "status": "To Do",
+              "points": 8,
+              "assignee": "Sana",
+              "created": "2026-11-08",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "reduce search api p95 latency. See slack thread."
+            },
+            {
+              "key": "BOOK-1225",
+              "type": "Task",
+              "summary": "Split payment between roommates",
+              "status": "In Progress",
+              "points": 3,
+              "assignee": "Sana",
+              "created": "2026-10-07",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to split payment between roommates so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1226",
+              "type": "Story",
+              "summary": "Add instant-book badge",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Dev",
+              "created": "2026-10-17",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "add instant-book badge. See slack thread."
+            },
+            {
+              "key": "BOOK-1227",
+              "type": "Story",
+              "summary": "Add instant-book badge",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Dev",
+              "created": "2026-11-08",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "add instant-book badge. See slack thread."
+            },
+            {
+              "key": "BOOK-1228",
+              "type": "Story",
+              "summary": "Show price breakdown before payment",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Sana",
+              "created": "2026-11-11",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to show price breakdown before payment so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1229",
+              "type": "Task",
+              "summary": "Send booking confirmation via WhatsApp",
+              "status": "In Progress",
+              "points": 2,
+              "assignee": "Dev",
+              "created": "2026-10-19",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to send booking confirmation via whatsapp so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1230",
+              "type": "Story",
+              "summary": "Filter listings by distance to university",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Sana",
+              "created": "2026-10-22",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to filter listings by distance to university so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1231",
+              "type": "Story",
+              "summary": "Landlord document verification flow",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Kabir",
+              "created": "2026-10-04",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to landlord document verification flow so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1232",
+              "type": "Story",
+              "summary": "Cache popular city search results",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Dev",
+              "created": "2026-10-21",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to cache popular city search results so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1233",
+              "type": "Task",
+              "summary": "Add sort by move-in date",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Kabir",
+              "created": "2026-11-05",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "BOOK Sprint 42",
+          "state": "active",
+          "start": "2026-11-17",
+          "end": "2026-11-28",
+          "closed_at": null,
+          "issues": [
+            {
+              "key": "BOOK-1240",
+              "type": "Story",
+              "summary": "Add sort by move-in date",
+              "status": "To Do",
+              "points": 3,
+              "assignee": "Sana",
+              "created": "2026-11-25",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1241",
+              "type": "Story",
+              "summary": "Refund status tracking page",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Sana",
+              "created": "2026-10-28",
+              "added_after_start": false,
+              "carried_from_previous": true,
+              "labels": [],
+              "description": "refund status tracking page. See slack thread."
+            },
+            {
+              "key": "BOOK-1242",
+              "type": "Story",
+              "summary": "Add sort by move-in date",
+              "status": "In Progress",
+              "points": 2,
+              "assignee": "Sana",
+              "created": "2026-11-23",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "add sort by move-in date. See slack thread."
+            },
+            {
+              "key": "BOOK-1243",
+              "type": "Task",
+              "summary": "Add sort by move-in date",
+              "status": "In Review",
+              "points": 5,
+              "assignee": "Dev",
+              "created": "2026-11-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1244",
+              "type": "Story",
+              "summary": "Lead form validation for phone numbers",
+              "status": "In Progress",
+              "points": 8,
+              "assignee": "Dev",
+              "created": "2026-11-22",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to lead form validation for phone numbers so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1245",
+              "type": "Story",
+              "summary": "Allow guarantor upload during booking",
+              "status": "In Progress",
+              "points": 2,
+              "assignee": "Kabir",
+              "created": "2026-11-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to allow guarantor upload during booking so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1246",
+              "type": "Story",
+              "summary": "Landlord document verification flow",
+              "status": "To Do",
+              "points": 5,
+              "assignee": "Sana",
+              "created": "2026-10-20",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to landlord document verification flow so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1247",
+              "type": "Story",
+              "summary": "Refund status tracking page",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Kabir",
+              "created": "2026-11-07",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to refund status tracking page so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1248",
+              "type": "Story",
+              "summary": "Add sort by move-in date",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Kabir",
+              "created": "2026-11-14",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "add sort by move-in date. See slack thread."
+            },
+            {
+              "key": "BOOK-1249",
+              "type": "Story",
+              "summary": "Cache popular city search results",
+              "status": "To Do",
+              "points": 2,
+              "assignee": "Sana",
+              "created": "2026-11-01",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "cache popular city search results. See slack thread."
+            },
+            {
+              "key": "BOOK-1250",
+              "type": "Story",
+              "summary": "Cache popular city search results",
+              "status": "To Do",
+              "points": 2,
+              "assignee": "Sana",
+              "created": "2026-11-18",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to cache popular city search results so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1251",
+              "type": "Story",
+              "summary": "Lead form validation for phone numbers",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Sana",
+              "created": "2026-11-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to lead form validation for phone numbers so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "BOOK-1252",
+              "type": "Task",
+              "summary": "Landlord document verification flow",
+              "status": "To Do",
+              "points": 5,
+              "assignee": "Sana",
+              "created": "2026-11-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "landlord document verification flow. See slack thread."
+            },
+            {
+              "key": "BOOK-1253",
+              "type": "Story",
+              "summary": "Saved searches with alerts",
+              "status": "In Review",
+              "points": 2,
+              "assignee": "Kabir",
+              "created": "2026-11-22",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "saved searches with alerts. See slack thread."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "sprints": [
+        {
+          "id": 40,
+          "name": "PAY Sprint 40",
+          "state": "closed",
+          "start": "2026-10-20",
+          "end": "2026-10-31",
+          "closed_at": "2026-10-31",
+          "issues": [
+            {
+              "key": "PAY-1200",
+              "type": "Story",
+              "summary": "Split payment between roommates",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Tara",
+              "created": "2026-09-23",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "split payment between roommates. See slack thread."
+            },
+            {
+              "key": "PAY-1201",
+              "type": "Story",
+              "summary": "Landlord document verification flow",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Nikhil",
+              "created": "2026-10-16",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "landlord document verification flow. See slack thread."
+            },
+            {
+              "key": "PAY-1202",
+              "type": "Story",
+              "summary": "Landlord document verification flow",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Nikhil",
+              "created": "2026-10-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to landlord document verification flow so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1203",
+              "type": "Story",
+              "summary": "Improve map pin clustering",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Tara",
+              "created": "2026-10-12",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to improve map pin clustering so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1204",
+              "type": "Story",
+              "summary": "Retry failed payment webhooks",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Imran",
+              "created": "2026-10-14",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to retry failed payment webhooks so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1205",
+              "type": "Task",
+              "summary": "Allow guarantor upload during booking",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Tara",
+              "created": "2026-09-23",
+              "added_after_start": false,
+              "carried_from_previous": true,
+              "labels": [],
+              "description": "allow guarantor upload during booking. See slack thread."
+            },
+            {
+              "key": "PAY-1206",
+              "type": "Bug",
+              "summary": "Add sort by move-in date",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Nikhil",
+              "created": "2026-10-11",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1207",
+              "type": "Story",
+              "summary": "Saved searches with alerts",
+              "status": "To Do",
+              "points": 3,
+              "assignee": "Tara",
+              "created": "2026-10-22",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "saved searches with alerts. See slack thread."
+            },
+            {
+              "key": "PAY-1208",
+              "type": "Task",
+              "summary": "Cache popular city search results",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Imran",
+              "created": "2026-09-28",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to cache popular city search results so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1209",
+              "type": "Task",
+              "summary": "Add instant-book badge",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Tara",
+              "created": "2026-10-24",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to add instant-book badge so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1210",
+              "type": "Bug",
+              "summary": "Send booking confirmation via WhatsApp",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Nikhil",
+              "created": "2026-10-12",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to send booking confirmation via whatsapp so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1211",
+              "type": "Bug",
+              "summary": "Retry failed payment webhooks",
+              "status": "In Progress",
+              "points": 5,
+              "assignee": "Nikhil",
+              "created": "2026-10-03",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to retry failed payment webhooks so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1212",
+              "type": "Task",
+              "summary": "Show room availability calendar",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Nikhil",
+              "created": "2026-09-30",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to show room availability calendar so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1213",
+              "type": "Task",
+              "summary": "Allow guarantor upload during booking",
+              "status": "To Do",
+              "points": 2,
+              "assignee": "Imran",
+              "created": "2026-10-28",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "allow guarantor upload during booking. See slack thread."
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "PAY Sprint 41",
+          "state": "closed",
+          "start": "2026-11-03",
+          "end": "2026-11-14",
+          "closed_at": "2026-11-15",
+          "issues": [
+            {
+              "key": "PAY-1220",
+              "type": "Task",
+              "summary": "Add sort by move-in date",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Tara",
+              "created": "2026-10-10",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "add sort by move-in date. See slack thread."
+            },
+            {
+              "key": "PAY-1221",
+              "type": "Story",
+              "summary": "Cache popular city search results",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Tara",
+              "created": "2026-10-24",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to cache popular city search results so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1222",
+              "type": "Story",
+              "summary": "Add instant-book badge",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Nikhil",
+              "created": "2026-10-24",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add instant-book badge so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1223",
+              "type": "Story",
+              "summary": "Filter listings by distance to university",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Nikhil",
+              "created": "2026-10-05",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to filter listings by distance to university so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1224",
+              "type": "Task",
+              "summary": "Show room availability calendar",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Tara",
+              "created": "2026-10-05",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to show room availability calendar so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1225",
+              "type": "Story",
+              "summary": "Filter listings by distance to university",
+              "status": "In Review",
+              "points": 1,
+              "assignee": "Imran",
+              "created": "2026-11-09",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to filter listings by distance to university so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1226",
+              "type": "Story",
+              "summary": "Allow guarantor upload during booking",
+              "status": "In Progress",
+              "points": 1,
+              "assignee": "Tara",
+              "created": "2026-10-05",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to allow guarantor upload during booking so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1227",
+              "type": "Story",
+              "summary": "Add sort by move-in date",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Imran",
+              "created": "2026-10-18",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to add sort by move-in date so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1228",
+              "type": "Story",
+              "summary": "Improve map pin clustering",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Imran",
+              "created": "2026-10-23",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to improve map pin clustering so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1229",
+              "type": "Task",
+              "summary": "Show price breakdown before payment",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Nikhil",
+              "created": "2026-10-31",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "show price breakdown before payment. See slack thread."
+            },
+            {
+              "key": "PAY-1230",
+              "type": "Story",
+              "summary": "Landlord document verification flow",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Nikhil",
+              "created": "2026-10-18",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to landlord document verification flow so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1231",
+              "type": "Task",
+              "summary": "Filter listings by distance to university",
+              "status": "To Do",
+              "points": 8,
+              "assignee": "Nikhil",
+              "created": "2026-11-06",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "As a student comparing properties I want to filter listings by distance to university so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1232",
+              "type": "Bug",
+              "summary": "Send booking confirmation via WhatsApp",
+              "status": "In Review",
+              "points": 2,
+              "assignee": "Nikhil",
+              "created": "2026-10-26",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to send booking confirmation via whatsapp so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1233",
+              "type": "Story",
+              "summary": "Reduce search API p95 latency",
+              "status": "Done",
+              "points": 2,
+              "assignee": "Imran",
+              "created": "2026-10-12",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "reduce search api p95 latency. See slack thread."
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "PAY Sprint 42",
+          "state": "active",
+          "start": "2026-11-17",
+          "end": "2026-11-28",
+          "closed_at": null,
+          "issues": [
+            {
+              "key": "PAY-1240",
+              "type": "Task",
+              "summary": "Refund status tracking page",
+              "status": "To Do",
+              "points": 2,
+              "assignee": "Tara",
+              "created": "2026-10-26",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "refund status tracking page. See slack thread."
+            },
+            {
+              "key": "PAY-1241",
+              "type": "Bug",
+              "summary": "Show price breakdown before payment",
+              "status": "To Do",
+              "points": 3,
+              "assignee": "Nikhil",
+              "created": "2026-11-21",
+              "added_after_start": true,
+              "carried_from_previous": false,
+              "labels": [
+                "unplanned"
+              ],
+              "description": "show price breakdown before payment. See slack thread."
+            },
+            {
+              "key": "PAY-1242",
+              "type": "Bug",
+              "summary": "Saved searches with alerts",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Tara",
+              "created": "2026-10-28",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "saved searches with alerts. See slack thread."
+            },
+            {
+              "key": "PAY-1243",
+              "type": "Story",
+              "summary": "Show price breakdown before payment",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Imran",
+              "created": "2026-10-31",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to show price breakdown before payment so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1244",
+              "type": "Story",
+              "summary": "Split payment between roommates",
+              "status": "In Progress",
+              "points": 5,
+              "assignee": "Imran",
+              "created": "2026-10-20",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to split payment between roommates so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1245",
+              "type": "Story",
+              "summary": "Lead form validation for phone numbers",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Nikhil",
+              "created": "2026-11-13",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to lead form validation for phone numbers so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1246",
+              "type": "Bug",
+              "summary": "Show room availability calendar",
+              "status": "In Progress",
+              "points": 2,
+              "assignee": "Tara",
+              "created": "2026-11-02",
+              "added_after_start": false,
+              "carried_from_previous": true,
+              "labels": [],
+              "description": "As a student comparing properties I want to show room availability calendar so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1247",
+              "type": "Task",
+              "summary": "Add tour scheduling for properties",
+              "status": "Done",
+              "points": 8,
+              "assignee": "Tara",
+              "created": "2026-10-20",
+              "added_after_start": false,
+              "carried_from_previous": true,
+              "labels": [],
+              "description": "As a student comparing properties I want to add tour scheduling for properties so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1248",
+              "type": "Task",
+              "summary": "Improve map pin clustering",
+              "status": "In Progress",
+              "points": 8,
+              "assignee": "Tara",
+              "created": "2026-10-26",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to improve map pin clustering so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1249",
+              "type": "Story",
+              "summary": "Lead form validation for phone numbers",
+              "status": "To Do",
+              "points": 3,
+              "assignee": "Tara",
+              "created": "2026-11-03",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to lead form validation for phone numbers so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1250",
+              "type": "Story",
+              "summary": "Improve map pin clustering",
+              "status": "Done",
+              "points": 5,
+              "assignee": "Imran",
+              "created": "2026-11-06",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to improve map pin clustering so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1251",
+              "type": "Story",
+              "summary": "Lead form validation for phone numbers",
+              "status": "Done",
+              "points": 3,
+              "assignee": "Tara",
+              "created": "2026-11-11",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to lead form validation for phone numbers so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1252",
+              "type": "Story",
+              "summary": "Saved searches with alerts",
+              "status": "To Do",
+              "points": 1,
+              "assignee": "Tara",
+              "created": "2026-10-27",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "As a student comparing properties I want to saved searches with alerts so that I can decide faster. Context: raised by support in the last two weeks with 40+ tickets. Acceptance criteria: 1) works on web and app 2) handles empty states 3) tracked with an analytics event. Out of scope: landlord dashboard changes."
+            },
+            {
+              "key": "PAY-1253",
+              "type": "Bug",
+              "summary": "Lead form validation for phone numbers",
+              "status": "Done",
+              "points": 1,
+              "assignee": "Nikhil",
+              "created": "2026-10-25",
+              "added_after_start": false,
+              "carried_from_previous": false,
+              "labels": [],
+              "description": "lead form validation for phone numbers. See slack thread."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "feature": "Send booking confirmation via WhatsApp",
+      "pod": "Payments",
+      "idea_logged": "2026-07-30",
+      "released": "2026-09-30"
+    },
+    {
+      "feature": "Add tour scheduling for properties",
+      "pod": "Search & Discovery",
+      "idea_logged": "2026-07-06",
+      "released": "2026-07-30"
+    },
+    {
+      "feature": "Landlord document verification flow",
+      "pod": "Payments",
+      "idea_logged": "2026-07-01",
+      "released": "2026-08-13"
+    },
+    {
+      "feature": "Allow guarantor upload during booking",
+      "pod": "Search & Discovery",
+      "idea_logged": "2026-08-08",
+      "released": "2026-10-01"
+    },
+    {
+      "feature": "Cache popular city search results",
+      "pod": "Payments",
+      "idea_logged": "2026-08-15",
+      "released": "2026-09-19"
+    },
+    {
+      "feature": "Improve map pin clustering",
+      "pod": "Payments",
+      "idea_logged": "2026-08-22",
+      "released": "2026-10-01"
+    },
+    {
+      "feature": "Filter listings by distance to university",
+      "pod": "Search & Discovery",
+      "idea_logged": "2026-09-14",
+      "released": "2026-10-18"
+    },
+    {
+      "feature": "Add instant-book badge",
+      "pod": "Payments",
+      "idea_logged": "2026-08-16",
+      "released": "2026-10-29"
+    },
+    {
+      "feature": "Refund status tracking page",
+      "pod": "Search & Discovery",
+      "idea_logged": "2026-08-30",
+      "released": "2026-09-28"
+    }
+  ]
+}

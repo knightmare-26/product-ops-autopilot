@@ -1,0 +1,10 @@
+Sprint Review — 17 Nov 2026 (fictional sample notes)
+Attendees: all pods
+
+- Booking Flow spilled a lot again; lots of unplanned asks from the business team mid-sprint.
+Decision: Booking Flow keeps a 15% buffer for unplanned work next sprint.
+Action: Dev - Set up an intake form for mid-sprint requests - due 2026-11-21
+Action: Kabir - Re-plan BOOK Sprint 42 scope with the buffer - due 2026-11-18
+- Payments demoed webhook retries.
+Action: Imran - Add alerting for failed payment webhooks - due 2026-11-24
+- Search demoed saved searches with alerts; positive feedback.

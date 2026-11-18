@@ -1,0 +1,34 @@
+name: Weekly product health report
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # every Monday 09:30 IST (04:00 UTC)
+  workflow_dispatch: {}    # run it by hand from the Actions tab
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run weekly report
+        env:
+          # Add these in Settings → Secrets → Actions. With none set, it runs on sample data
+          # and prints the Slack messages instead of sending them.
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_BOARDS: ${{ secrets.JIRA_BOARDS }}
+        run: |
+          SOURCE=sample
+          if [ -n "$JIRA_BASE_URL" ]; then SOURCE=jira; fi
+          python -m autopilot weekly --source $SOURCE
+      - name: Keep the report as a build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-report
+          path: output/

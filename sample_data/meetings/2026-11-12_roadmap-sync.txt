@@ -1,0 +1,11 @@
+Roadmap Sync — 12 Nov 2026 (fictional sample notes)
+Attendees: Senior Director of Product, Aisha, Kabir, Nikhil
+
+- Q1 themes: conversion on booking, landlord verification, search speed.
+Decision: Split payment between roommates moves to Q1, not this quarter.
+Action: Nikhil - Size split-payment effort with engineering - due 2026-11-19
+Action: Aisha - Update the Q1 roadmap page in Notion with the new themes - due 2026-11-14
+- Discussion on landlord document verification: legal review pending.
+Action: Meera - Get legal sign-off on verification flow
+- Agreed every Q1 story needs acceptance criteria before refinement.
+Decision: Stories without acceptance criteria cannot enter sprint planning from 1 Dec.

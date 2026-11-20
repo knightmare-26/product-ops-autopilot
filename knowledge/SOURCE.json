@@ -1,0 +1,9 @@
+{
+  "product": "Apache OFBiz",
+  "docs_repo": "apache/ofbiz-framework",
+  "docs_commit": "873657bb79279e2da9e62798b0dae3e3693063f6",
+  "jira": "https://issues.apache.org/jira/projects/OFBIZ",
+  "jira_window_days": 90,
+  "snapshot_date": "2026-11-20",
+  "license": "Apache License 2.0 (see ofbiz_docs/LICENSE and ofbiz_docs/NOTICE)"
+}

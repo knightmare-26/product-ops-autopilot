@@ -1,0 +1,44 @@
+////
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+////
+
+= What is Entity Synchronization (EntitySync) and how to use it?
+The Apache OFBiz Project
+Release trunk
+:imagesdir: ./images
+ifdef::backend-pdf[]
+:title-logo-image: image::OFBiz-Logo.svg[Apache OFBiz Logo, pdfwidth=4.25in, align=center]
+:source-highlighter: rouge
+endif::[]
+
+== Introduction to Entity Synchronization
+OFBiz no longer synchronizes data between databases: the remote push and pull and the offline export and import of
+EntitySync were removed. What remains is the data model and the timestamps it relies on.
+
+An EntitySync record, with its EntitySyncInclude and EntitySyncIncludeGroup records, describes a set of entities by
+name, package or entity group, with include, exclude and always rules. The Webtools XML Data Export page can use such
+a set to choose the entities to export: enter the EntitySync ID in its EntitySync field.
+
+The four fields (lastUpdatedStamp, lastUpdatedTxStamp, createdStamp, createdTxStamp) are added to each entity and
+automatically populated, so that the records created or updated since a given time can be found, for example with the
+"records updated since" option of the XML Data Export page. The no-auto-stamp attribute tells the Entity Engine not to
+add these stamp fields and not to set them when creating and updating the entities. It is false by default.
+
+When saveEntitySyncRemoveInfo is set to true in general.properties (it is false by default), the primary key of each
+removed record is saved in the EntitySyncRemove entity. The cleanSyncRemoveInfo job deletes these records once they are
+older than the largest keepRemoveInfoHours of the EntitySync records.

@@ -1,0 +1,18 @@
+= REST API documentation
+
+You can choose between Swagger UI and Redoc to publish documentation for the REST API.
+
+Versions of Swagger UI and Redoc are declared as npm dependencies in `package.json`.
+They are downloaded and copied into this directory automatically when running `./gradlew classes`.
+
+== Swagger UI
+
+Access: https://localhost:8443/docs/<api-group-path>/swagger-ui.html
+
+Without an api group path (https://localhost:8443/docs/swagger-ui.html) the default "api" group is shown.
+
+== Redoc
+
+Access: https://localhost:8443/docs/<api-group-path>/redoc.html
+
+Without an api group path (https://localhost:8443/docs/redoc.html) the default "api" group is shown.

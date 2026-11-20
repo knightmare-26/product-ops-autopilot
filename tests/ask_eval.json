@@ -1,0 +1,29 @@
+{
+  "about": "Labelled questions for the Ask Product bot, written before tuning against them. `expect` lists acceptable sources (substring of a passage id: a doc path or a ticket key); GAP means the right answer is 'I don't know'. Run: python tools/eval_ask.py",
+  "questions": [
+    {"q": "What happens when a customer returns an item?", "expect": ["order-return.adoc"]},
+    {"q": "Can a return be refunded as store credit instead of money?", "expect": ["order-return.adoc", "acc-financial-accounts.adoc"]},
+    {"q": "How do I receive a returned item into the warehouse?", "expect": ["order-return.adoc", "facility", "receive"]},
+    {"q": "How do we configure a payment gateway?", "expect": ["PaymentGateway", "payment-gateway"]},
+    {"q": "How are invoices created?", "expect": ["acc-invoices.adoc", "HELP_newInvoice.adoc"]},
+    {"q": "What is a billing account used for?", "expect": ["billing-account", "BillingAccount"]},
+    {"q": "How does MRP work in manufacturing?", "expect": ["mfg-mrp.adoc"]},
+    {"q": "What is a bill of materials?", "expect": ["mfg-bom.adoc"]},
+    {"q": "How do I set up a product promotion?", "expect": ["product-promos.adoc"]},
+    {"q": "How do I add a new employee in HR?", "expect": ["HELP-hr-NewEmployee.adoc"]},
+    {"q": "How do I import parties into a marketing contact list?", "expect": ["HELP_ImportContactListParties.adoc", "ContactList"]},
+    {"q": "How does the REST API authenticate requests?", "expect": ["rest-api"]},
+    {"q": "What is the status of the Hugo website migration?", "expect": ["OFBIZ-13874"]},
+    {"q": "Is multi-factor authentication with TOTP being worked on?", "expect": ["OFBIZ-13824"]},
+    {"q": "Where are we on the JWT token issuer change?", "expect": ["OFBIZ-13812"]},
+    {"q": "Has the cmssite plugin been removed?", "expect": ["OFBIZ-13819"]},
+    {"q": "What's happening with the constrained MRP run?", "expect": ["OFBIZ-13462", "OFBIZ-13794"]},
+    {"q": "Status of OFBIZ-13829?", "expect": ["OFBIZ-13829"]},
+    {"q": "Was the missing jquery validation messages_en.js 404 fixed?", "expect": ["OFBIZ-13652"]},
+    {"q": "Did Rohan look into the weekend latency spike?", "expect": ["action:"]},
+    {"q": "What is our refund SLA for students in London?", "expect": "GAP"},
+    {"q": "Who is the onboarding buddy for new PMs?", "expect": "GAP"},
+    {"q": "What is the quarterly OKR for booking conversion?", "expect": "GAP"},
+    {"q": "When is the next Product All Hands?", "expect": "GAP"}
+  ]
+}

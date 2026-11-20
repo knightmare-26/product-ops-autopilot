@@ -1,0 +1,17 @@
+# A week of questions a product team might ask, used to demo the bot and fill the weekly report.
+# Run:  python -m autopilot ask --file tools/demo_questions.txt
+How does a sales return work?
+What return types can a customer choose?
+What's the status of the Hugo website migration?
+Is multi-factor authentication with TOTP being worked on?
+Is the Gradle 10 compatibility work done?
+What is the status of OFBIZ-13868?
+How do we configure a payment gateway?
+How does a sales return work?
+Where are we on the JWT token issuer change?
+Did Rohan look into the weekend latency spike?
+What did we decide about refund tracking?
+Who is the onboarding buddy for new PMs?
+What is our refund SLA for students in London?
+Who is the onboarding buddy for new PMs?
+What is the quarterly OKR for booking conversion?

@@ -47,7 +47,20 @@ def suggestions(summary, chase):
     return out
 
 
-def markdown(summary, chase, decisions, closure, today=None):
+def bot_lines(bot):
+    """Ask Product bot usage and knowledge gaps, as plain sentences."""
+    if not bot or not bot["asked"]:
+        return ["No questions asked this week."]
+    lines = [f"{bot['asked']} questions ({bot['by_intent'].get('status', 0)} status, "
+             f"{bot['by_intent'].get('howto', 0)} how-to) · {pct(bot['answer_rate'])} answered with evidence · "
+             f"{bot['recurring_questions']} asked more than once, {pct(bot['recurring_answer_rate'])} of those answered"]
+    if bot["gaps"]:
+        lines.append("Knowledge gaps to fill (add a note to knowledge/team_notes/):")
+        lines += [f"\"{g['question']}\" (asked {g['times']}x)" for g in bot["gaps"]]
+    return lines
+
+
+def markdown(summary, chase, decisions, closure, today=None, bot=None):
     today = today or date.today()
     ct = summary["cycle_time"]
     lines = [f"# Product Team Weekly Health · {today:%d %b %Y}", "",
@@ -71,6 +84,9 @@ def markdown(summary, chase, decisions, closure, today=None):
                          + (f", due {i['due']}" if i.get("due") else "") + f") `{i['id']}`")
     lines += ["", "## Decisions logged this week", ""] + [f"- {d['text']} ({d['meeting']}, {d['date']})"
                                                           for d in decisions]
+    if bot is not None:
+        b = bot_lines(bot)
+        lines += ["", "## Ask Product bot", "", b[0]] + ([""] + [b[1]] + [f"- {x}" for x in b[2:]] if len(b) > 1 else [])
     return "\n".join(lines) + "\n"
 
 
@@ -90,9 +106,15 @@ th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;whit
 """
 
 
-def html_report(summary, chase, decisions, closure, today=None):
+def html_report(summary, chase, decisions, closure, today=None, bot=None):
     today = today or date.today()
     e = html.escape
+    bot_html = ""
+    if bot is not None:
+        b = bot_lines(bot)
+        bot_html = (f"<h2>Ask Product bot</h2><p>{e(b[0])}</p>"
+                    + (f"<p class='sub'>{e(b[1])}</p><ul>{''.join(f'<li>{e(x)}</li>' for x in b[2:])}</ul>"
+                       if len(b) > 1 else ""))
     ct = summary["cycle_time"]
     overdue = sum(i["flag"] == "overdue" for items in chase.values() for i in items)
     rows = []
@@ -123,10 +145,10 @@ def html_report(summary, chase, decisions, closure, today=None):
 <h2>Sprint health by pod</h2><div class="wrap"><table><thead><tr><th>Pod</th><th>Sprint</th><th>Overall</th>{head}</tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div><p class="sub" style="margin-top:8px">▲▼ change vs previous sprint · Docs with AC = stories with a full description and acceptance criteria</p>
 <h2>What to look at</h2><ul>{sug}</ul><h2>Open action items by owner</h2>{''.join(owners)}
-<h2>Decisions logged</h2><ul>{dec}</ul><footer>Product Ops Autopilot · built by Elijah DSouza</footer></main></body></html>"""
+<h2>Decisions logged</h2><ul>{dec}</ul>{bot_html}<footer>Product Ops Autopilot · built by Elijah DSouza</footer></main></body></html>"""
 
 
-def slack_text(summary, chase, closure, report_url=None):
+def slack_text(summary, chase, closure, report_url=None, bot=None):
     worst = [p for p in summary["pods"] if p["overall"] != "green"]
     overdue = [i for items in chase.values() for i in items if i["flag"] == "overdue"]
     lines = [f"*Product team weekly health* · spillover {pct(summary['team_spillover_rate'])} · "
@@ -139,6 +161,9 @@ def slack_text(summary, chase, closure, report_url=None):
         lines += [f"• {i['owner']}: {i['task']} ({i['days_overdue']}d overdue)" for i in overdue[:8]]
     if worst:
         lines.append(f"\nNeeds attention: {', '.join(p['pod'] for p in worst)}")
+    if bot and bot["asked"]:
+        lines.append(f"\n*Ask Product bot*: {bot['asked']} questions, {pct(bot['answer_rate'])} answered with evidence"
+                     + (f", {len(bot['gaps'])} knowledge gaps to fill" if bot["gaps"] else ""))
     if report_url:
         lines.append(f"<{report_url}|Full report>")
     return "\n".join(lines)

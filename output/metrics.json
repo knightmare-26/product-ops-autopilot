@@ -302,5 +302,39 @@
       "released": "2026-10-29"
     }
   },
-  "source": "sample"
+  "source": "sample",
+  "ask_bot": {
+    "window_days": 7,
+    "since": "2026-11-14",
+    "asked": 15,
+    "answered": 11,
+    "answer_rate": 0.7333333333333333,
+    "recurring_questions": 2,
+    "recurring_answer_rate": 0.5,
+    "by_intent": {
+      "howto": 8,
+      "status": 7
+    },
+    "askers": 1,
+    "gaps": [
+      {
+        "question": "Who is the onboarding buddy for new PMs?",
+        "times": 2,
+        "closest": "Create New Employee",
+        "last_asked": "2026-11-20"
+      },
+      {
+        "question": "What is our refund SLA for students in London?",
+        "times": 1,
+        "closest": "Financial Accounts \u203a Store Credit Account",
+        "last_asked": "2026-11-20"
+      },
+      {
+        "question": "What is the quarterly OKR for booking conversion?",
+        "times": 1,
+        "closest": "HR Data Model Resource Book Difference \u203a BenefitType",
+        "last_asked": "2026-11-20"
+      }
+    ]
+  }
 }
